@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		67CCDD2C2BBB398B00B8766E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67CCDD2B2BBB398B00B8766E /* main.cpp */; };
 		67CCDD342BBB3A1000B8766E /* ReadData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67CCDD322BBB3A1000B8766E /* ReadData.cpp */; };
+		67CCDD372BBB5C4700B8766E /* LakeHuron.csv in Resources */ = {isa = PBXBuildFile; fileRef = 67CCDD352BBB3E6200B8766E /* LakeHuron.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		67CCDD262BBB398B00B8766E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -79,6 +80,7 @@
 				67CCDD242BBB398B00B8766E /* Sources */,
 				67CCDD252BBB398B00B8766E /* Frameworks */,
 				67CCDD262BBB398B00B8766E /* CopyFiles */,
+				67CCDD362BBB5C3F00B8766E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +98,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					67CCDD272BBB398B00B8766E = {
@@ -120,6 +125,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67CCDD362BBB5C3F00B8766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CCDD372BBB5C4700B8766E /* LakeHuron.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67CCDD242BBB398B00B8766E /* Sources */ = {

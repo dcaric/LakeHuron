@@ -9,11 +9,15 @@
 #include "ReadData.hpp"
 #include <string>
 
+
 using namespace std;
 
 int main() {
     
-    const string fileURL = "/Users/dariocaric/Working/c++/LakeHuron/LakeHuron/LakeHuron.csv";
+    
+    //const string fileURL = "/Users/dariocaric/Working/c++/LakeHuron/LakeHuron/LakeHuron.csv";
+    string fileURL = "LakeHuron.csv";
+    cout << "File URL: " << fileURL << endl;
     
     // create ReadData object
     ReadData data = ReadData(fileURL);
